@@ -1,51 +1,228 @@
-<html>
+<!DOCTYPE html>
+<!-- saved from url=(0031)https://jekyllrb.com/resources/ -->
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <meta name="description" content="">
+  <meta name="author" content="">
+  
+    <title>Calvin's Site - the upgrade</title>
+    <link rel="icon" type="image/x-icon" href="images/icons/cup-hot-fill.svg">
 
-    <title>Calvin C</title>
-	<style>
-		thead { 
-		table { display:block; height:210px; overflow:auto; }
-			position: sticky; 
-			top:0; 
-			z-index:1; 
-			background-color:gray; 
-		}
-		thead td {
-			border: solid;
-		}
-    </style>
+    <!-- CSS FILES -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="css/calvinc404.css" rel="stylesheet">
+    <!--
+
+TemplateMo 581 Kind Heart Charity
+
+https://templatemo.com/tm-581-kind-heart-charity
+
+-->
+
 </head>
-<body>
 
-<h2>This is Calvin C's Web Page.  When I'm done, it'll be awesome!!</h2>
-<ul>
-<li>skills, languages, etc</li>
+<body id="section_1">
 
-<li>games - tictactoe, Banker</li>
+    <header class="site-header">
+        <div class="container">
+            <div class="row">
 
-<li>parts of WICS</li>
-</ul>
-<h2>This site exists for a lot of reasons.</h2>  
-<ul>
-<li><p>If you have hiring influence, I hope to impress you with this site.  I need to have you see my work because, frankly, your HR screeners probably won't give you my resume.  You see, I last wrote programs as my primary paid job in 1996.  The reasons why involve some stupid moves on my part, and if we meet, I'll go into why.  While I wasn't working in IT, though, I was not asleep; I still coded, my mindset was still that of a programmer, and I still had skills.  In fact, I still code, and I am still one of the best programmers you will ever meet.  One of the reasons for this site is to prove this.
-</p></li>
-</ul>
-<h2>Professional Links</h2>
-<ul>
-    <li>github: https://github.com/calvinc-org-10</li>
-    <li>linkedin: https://www.linkedin.com/in/curtindolph-c-10</li>
-</ul>
-<h2>Memorable Moments</h2>
-Entries from my journal which are still meaningful
-<ul>
-    <li></li>
-</ul>
-<h2>Stuff that floats my boat</h2>
-<ul>
-    <li>Coffee</li>
-    <li>Muzak</li>
-</ul>
+                <div class="col-lg-3 col-12 d-flex flex-wrap">
+                    <p class="d-flex mb-0">
+                        <i class="bi-envelope me-2"></i>
+
+                        <a href="mailto:calvinc404@gmail.com" target="_blank">
+                            calvinc404@gmail.com
+                        </a>
+                    </p>
+                </div>
+
+                <div class="col-lg-3 col-12 d-flex flex-wrap">
+					<img src="images/Calvin%20C%20orig%20logo.jpg" class="logo img-fluid" alt="Calvin C">
+				</div>
+
+                <div class="col-lg-3 col-12 ms-auto d-lg-block d-none">
+                    <ul class="social-icon">
+                        <li class="social-icon-item">
+                            <a href="https://www.youtube.com/@CalvinC404" target="_blank" class="social-icon-link bi-youtube"></a>
+                        </li>
+
+                        <li class="social-icon-item">
+                            <a href="https://www.linkedin.com/in/curtindolph-c-10" target="_blank" class="social-icon-link bi-linkedin"></a>
+                        </li>
+						
+                        <li class="social-icon-item">
+                            <a href="https://github.com/calvinc-org-10" target="_blank" class="social-icon-link bi-github"></a>
+                        </li>
+						
+						<!-- I'm not on these platforms
+                        <li class="social-icon-item">
+                            <a href="#" class="social-icon-link bi-twitter"></a>
+                        </li>
+
+                        <li class="social-icon-item">
+                            <a href="#" class="social-icon-link bi-facebook"></a>
+                        </li>
+
+                        <li class="social-icon-item">
+                            <a href="#" class="social-icon-link bi-instagram"></a>
+                        </li>
+
+                        <li class="social-icon-item">
+                            <a href="#" class="social-icon-link bi-whatsapp"></a>
+                        </li>
+
+						-->
+                    </ul>
+                </div>	<!-- col -->
+            </div>	<!-- row -->
+        </div>	<!-- site-header's container -->
+    </header>
+
+	<nav class="navbar">
+		<div class="container">
+			<div class="row ">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="col-1">
+					<img src="images/calvinc.jpg" class="logo img-fluid" alt="Calvin C">
+				</div>
+				<div class="col">
+					<div class="row navbar-collapse ml-lg-0 ml-3">
+						<span class="fs-5 fw-medium text-primary">
+							Calvin C is an awesome God-lover, programmer, mathematician, coffee-drinker... Heck, Calvin is just awesome!  
+						</span>
+					</div>
+					<div class="nav bg-info justify-content-end" id="navbarCollapse">
+								<button class="nav-link click-scroll featured-block" onclick='LoadCalvinSection("mainSection", "main.html");'>Home</button>
+								<button class="nav-link click-scroll featured-block" onclick='LoadCalvinSection("mainSection", "bio.html");'>Bio</button>
+								<button class="nav-link click-scroll featured-block" onclick='LoadCalvinSection("mainSection", "Jesus.html");'>I Love God</button>
+								<span class="nav-item dropdown featured-block">
+									<span class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									Mathematics
+									</span>
+									<ul class="dropdown-menu">
+										<li><button class="dropdown-item" onclick='LoadCalvinSection("mainSection", "mathMain.html");'>Point-Set Topology 2</button></li>
+										<li><button class="dropdown-item" onclick='LoadCalvinSection("mainSection", "mathMain.html");'>Pythagorean Triples</button></li>
+										<li><hr class="dropdown-divider"></li>
+										<li><button class="dropdown-item" onclick='LoadCalvinSection("mainSection", "mathMain.html");'>Something else here</button></li>
+									</ul>
+								</span>
+								<button class="nav-link click-scroll featured-block" onclick='LoadCalvinSection("mainSection", "blogMain.html");'>My Thoughts</button>
+								<button class="nav-link click-scroll featured-block" onclick='LoadCalvinSection("mainSection", "muzakMain.html");'>Poetry & Music</button>
+								<button class="nav-link click-scroll featured-block" onclick='LoadCalvinSection("mainSection", "getajob.html");'>Hire Me!</button>
+								<a class="nav-link click-scroll featured-block" href="#contactInfo">Contact</a>
+								Quotes
+								<!-- <a class="nav-link custom-btn custom-border-btn btn" href="donate.html">Donate</a> -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<main>
+	
+		<hr>
+		<section id="mainSection">
+		</section>
+		<hr>
+		
+		<section id="wishlist">
+			<h3>Things Calvin wants to do with this site in the future...</h3>
+			<ul>
+				<li>Have a variable quotation on Main Page</li>
+				<li>Find out how to toggle theme</li>
+			</ul>
+		</section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12 mb-2">
+                    <img src="images/Calvin%20C%20orig%20logo.jpg" class="img-fluid" alt="">
+                </div>
+			</div>
+			<div class="row">
+                <div class="col-lg-4 col-md-6 col-12 mb-4">
+                    <h5 class="site-footer-title mb-3">Quick Links</h5>
+
+                    <ul class="footer-menu">
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12 mx-auto" id="contactInfo">
+                    <h5 class="site-footer-title mb-3">Contact Infomation</h5>
+
+                    <p class="text-white d-flex">
+                        <i class="bi-envelope me-2"></i>
+
+                        <a href="mailto:calvinc404@gmail.com" class="site-footer-link">
+                            calvinc404@gmail.com
+                        </a>
+                    </p>
+
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-6 col-md-7 col-12">
+                        <p class="text-pink mb-0">
+                            Design Tools: 
+							<a href="https://templatemo.com" target="_blank" class="site-footer-link">TemplateMo</a>, 
+                            <a href="https://themewagon.com target="_blank" class="site-footer-link">ThemeWagon</a>
+                        </p>
+                    </div>
+
+<!-- do I really want the social media stuff repeated?
+                    <div class="col-lg-6 col-md-5 col-12 d-flex justify-content-center align-items-center mx-auto">
+                        <ul class="social-icon">
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link bi-twitter"></a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link bi-facebook"></a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link bi-instagram"></a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link bi-linkedin"></a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="https://youtube.com/templatemo" class="social-icon-link bi-youtube"></a>
+                            </li>
+                        </ul>
+                    </div>
+-->
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/click-scroll.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/custom.js"></script>
+
 </body>
+
 </html>

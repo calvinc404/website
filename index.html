@@ -3,12 +3,11 @@
 <html lang="en">
 <head>
   
-  
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="Calvin C's pages">
+  <meta name="author" content="Calvin C">
   
     <title>Calvin C</title>
     <link rel="icon" type="image/x-icon" href="images/icons/cup-hot-fill.svg">
@@ -19,17 +18,10 @@
     <link href="css/bootstrap-icons.css" rel="stylesheet">
 
     <link href="css/calvinc404.css" rel="stylesheet">
-    <!--
-
-TemplateMo 581 Kind Heart Charity
-
-https://templatemo.com/tm-581-kind-heart-charity
-
--->
 
 </head>
 
-<body id="section_1">
+<body>
 
     <header class="site-header">
         <div class="container">
@@ -102,29 +94,55 @@ https://templatemo.com/tm-581-kind-heart-charity
 							Calvin C is an awesome God-lover, programmer, mathematician, coffee-drinker... Heck, Calvin is just awesome!  
 						</span>
 					</div>
-					<div class="nav bg-info justify-content-end" id="navbarCollapse">
-								<button class="nav-link click-scroll featured-block" onclick='LoadCalvinSection("mainSection", "main.html");'>Home</button>
-								<button class="nav-link click-scroll featured-block" onclick='LoadCalvinSection("mainSection", "bio.html");'>Bio</button>
-								<button class="nav-link click-scroll featured-block" onclick='LoadCalvinSection("mainSection", "Jesus.html");'>I Love God</button>
-								<span class="nav-item dropdown featured-block">
-									<span class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-									Mathematics
-									</span>
-									<ul class="dropdown-menu">
-										<li><button class="dropdown-item" onclick='LoadCalvinSection("mainSection", "mathMain.html");'>Point-Set Topology 2</button></li>
-										<li><button class="dropdown-item" onclick='LoadCalvinSection("mainSection", "mathMain.html");'>Pythagorean Triples</button></li>
-										<li><hr class="dropdown-divider"></li>
-										<li><button class="dropdown-item" onclick='LoadCalvinSection("mainSection", "mathMain.html");'>Something else here</button></li>
-									</ul>
-								</span>
-								<button class="nav-link click-scroll featured-block" onclick='LoadCalvinSection("mainSection", "blogMain.html");'>My Thoughts</button>
-								<button class="nav-link click-scroll featured-block" onclick='LoadCalvinSection("mainSection", "muzakMain.html");'>Poetry & Music</button>
-								<button class="nav-link click-scroll featured-block" onclick='LoadCalvinSection("mainSection", "getajob.html");'>Hire Me!</button>
-								<a class="nav-link click-scroll featured-block" href="#">Coffee</a>
-								<a class="nav-link click-scroll featured-block" href="#contactInfo">Contact</a>
-								Quotes
-								<!-- <a class="nav-link custom-btn custom-border-btn btn" href="donate.html">Donate</a> -->
-					</div>
+					<ul class="nav nav-tabs bg-info justify-content-end" id="navbarCollapse">
+					
+						<li class="nav-item">
+						<a class="nav-link featured-block active" data-bs-toggle="tab" data-bs-target="#mainSect">Home</a>
+						</li>
+						
+						<li>
+						<a class="nav-link featured-block" data-bs-toggle="tab" data-bs-target="#bioSect">Bio</a>
+						</li>
+
+						<li>
+						<a class="nav-link featured-block" data-bs-toggle="tab" data-bs-target="#JesusSect">I Love God</a>
+						</li>
+
+						<li>		
+						<span class="nav-item dropdown dropdown-toggle featured-block">
+						<!-- <span class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"> -->
+							Mathematics
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" data-bs-toggle="tab" data-bs-target="#mathMainSect">Point-Set Topology 2</a></li>
+								<li><a class="dropdown-item" data-bs-toggle="tab" data-bs-target="#mathMainSect">Pythagorean Triples</a></li>
+								<li><hr class="dropdown-divider"></li>
+								<li><a class="dropdown-item" data-bs-toggle="tab" data-bs-target="#mathMainSect">Something else here</a></li>
+							</ul>
+						</span>
+						<!-- </span> -->
+						</li>
+								
+						<li>
+						<a class="nav-link featured-block" data-bs-toggle="tab" data-bs-target="#blogMainSect">My Thoughts</a>
+						</li>
+								
+						<li>
+						<a class="nav-link featured-block" data-bs-toggle="tab" data-bs-target="#muzakMainSect">Poetry & Music</a>
+						</li>
+							
+						<li>
+						<a class="nav-link featured-block" data-bs-toggle="tab" data-bs-target="#getajobSect">Hire Me!</a>
+						</li>
+
+						<li>
+						<a class="nav-link featured-block" data-bs-toggle="tab" data-bs-target="#coffeeSect">Coffee</a>
+						</li>
+
+						<li>
+						<a class="nav-link featured-block" href="#contactInfo">Contact</a>
+						</li>
+
+					</ul>
 				</div>
 			</div>
 		</div>
@@ -133,12 +151,61 @@ https://templatemo.com/tm-581-kind-heart-charity
 	<main>
 	
 		<hr>
-		<section id="mainSection">
+		<section id="mainSection" class="tab-content">
+			<!-- Tab panes -->
+
+				<div class="tab-pane container-fluid active" id="mainSect">
+					<h1>Main Page...</h1>
+				</div>  <!-- tab pane mainSect -->
+
+				<div class="tab-pane container fade" id="bioSect">
+					<h1>My Bio...</h1>
+				</div>    <!-- tab pane bioSect -->
+
+				<div class="tab-pane container fade" id="JesusSect">
+					<h1>Jesus!...</h1>
+				</div>    <!-- tab pane JesusSect -->
+
+				<div class="tab-pane container fade" id="mathMainSect">
+				<!-- carousel? -->
+					<h1>Math Main...</h1>
+				</div>  <!-- tab pane mathMainSect -->
+
+				<div class="tab-pane container fade" id="blogMainSect">
+					<h1>My Thoughts Main Page...</h1>
+					This is a very very long Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</div>    <!-- tab pane blogMainSect -->
+
+				<div class="tab-pane container fade" id="muzakMainSect">
+					<h1>Muzak Main Page...</h1>
+				</div>    <!-- tab pane muzakMainSect -->
+
+				<div class="tab-pane container fade" id="getajobSect">
+					<h1>Do You Want Me To Work For You??...</h1>
+                    <p>
+                        If you have hiring influence, I hope to impress you with this site.  I need to have you see my work because, frankly, your HR screeners probably won't give you my resume.  You see, I last wrote programs as my primary paid job in 1996.  The reasons why involve some stupid moves on my part, and if we meet, I'll go into why.  While I wasn't working in IT, though, I was not asleep; I still coded, my mindset was still that of a programmer, and I still had skills.  In fact, I still code, and I am still one of the best programmers you will ever meet.  One of the reasons for this site is to prove this.
+                    </p>
+				</div>    <!-- tab pane getajobSect -->
+
+				<div class="tab-pane container fade" id="coffeeSect">
+					<h1>Coffee is good!!</h1>
+                    <img src="images/avatar/2021-05-20-11-22-45.jpg" class="img-fluid" alt="">
+                    <img src="images/icons/cup-hot-fill.svg" class="img-fluid" alt="">
+				</div>    <!-- tab pane coffeeSect -->
+
 		</section>
 		<hr>
 		
 		<section id="wishlist">
-			<h3>Things Calvin wants to do with this site in the future...</h3>
+            Obviously, I'm not finished yet.  Keep checking back to witness the progression from <i>what is this??</i> to <b>awesome!</b>
+            <h3>sections/ideas to place/develop</h3>
+            <ul>
+                <li>skills, languages, etc</li>
+                <li>games - tictactoe, Banker</li>
+                <li>link to WICS?</li>
+            </ul>
+			<h3>Stuff I want learn to do with this site in the future...</h3>
 			<ul>
 				<li>Have a variable quotation on Main Page</li>
 				<li>Find out how to toggle theme</li>

@@ -101,21 +101,19 @@
 					<ul class="nav nav-tabs bg-info justify-content-end" id="navbarCollapse">
 					
 						<li class="nav-item">
-						<!-- <a class="nav-link featured-block active" data-bs-toggle="tab" data-bs-target="#mainSect">Home</a> -->
 						<a class="nav-link hover-flash active" data-bs-toggle="tab" data-bs-target="#mainSect">Home</a>
 						</li>
 						
-						<li>
+						<li class="nav-item">
 						<a class="nav-link hover-flash" data-bs-toggle="tab" data-bs-target="#bioSect">Bio</a>
 						</li>
 
-						<li>
+						<li class="nav-item">
 						<a class="nav-link hover-flash" data-bs-toggle="tab" data-bs-target="#JesusSect">I Love God</a>
 						</li>
 
 						<li>		
 						<span class="nav-item  hover-flash dropdown dropdown-toggle">
-						<!-- <span class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"> -->
 							Mathematics
 							<ul class="dropdown-menu">
 								<li><a class="dropdown-item" data-bs-toggle="tab" data-bs-target="#mathMainSect">Point-Set Topology 2</a></li>
@@ -127,23 +125,23 @@
 						<!-- </span> -->
 						</li>
 								
-						<li>
+						<li class="nav-item">
 						<a class="nav-link hover-flash" data-bs-toggle="tab" data-bs-target="#blogMainSect">My Thoughts</a>
 						</li>
 								
-						<li>
+						<li class="nav-item">
 						<a class="nav-link hover-flash" data-bs-toggle="tab" data-bs-target="#muzakMainSect">Poetry & Music</a>
 						</li>
 							
-						<li>
+						<li class="nav-item">
 						<a class="nav-link hover-flash" data-bs-toggle="tab" data-bs-target="#getajobSect">Hire Me!</a>
 						</li>
 
-						<li>
+						<li class="nav-item">
 						<a class="nav-link hover-flash" data-bs-toggle="tab" data-bs-target="#coffeeSect">Coffee</a>
 						</li>
 
-						<li>
+						<li class="nav-item">
 						<a class="nav-link hover-flash" href="#contactInfo">Contact</a>
 						</li>
 
@@ -151,46 +149,46 @@
 				</div>
 			</div>
 		</div>
+		<hr>
 	</nav>
 
 	<main>
 	
-		<hr>
 		<section id="mainSection" class="tab-content">
 			<!-- Tab panes -->
 
-				<div class="tab-pane container active" id="mainSect">
-                    {% include main.html %}
-				</div>  <!-- tab pane mainSect -->
+            <div class="tab-pane container active" id="mainSect">
+                {% include main.html %}
+            </div>  <!-- tab pane mainSect -->
 
-				<div class="tab-pane container fade" id="bioSect">
-                    {% include bio.html %}
-				</div>    <!-- tab pane bioSect -->
+            <div class="tab-pane container fade" id="bioSect">
+                {% include bio.html %}
+            </div>    <!-- tab pane bioSect -->
 
-				<div class="tab-pane container fade" id="JesusSect">
-                    {% include Jesus.html %}
-				</div>    <!-- tab pane JesusSect -->
+            <div class="tab-pane container fade" id="JesusSect">
+                {% include Jesus.html %}
+            </div>    <!-- tab pane JesusSect -->
 
-				<div class="tab-pane container fade" id="mathMainSect">
-				<!-- carousel? -->
-                    {% include mathMain.html %}
-                </div>  <!-- tab pane mathMainSect -->
+            <div class="tab-pane container fade" id="mathMainSect">
+            <!-- carousel? -->
+                {% include mathMain.html %}
+            </div>  <!-- tab pane mathMainSect -->
 
-				<div class="tab-pane container fade" id="blogMainSect">
-                    {% include blogMain.html %}
-				</div>    <!-- tab pane blogMainSect -->
+            <div class="tab-pane container fade" id="blogMainSect">
+                {% include blogMain.html %}
+            </div>    <!-- tab pane blogMainSect -->
 
-				<div class="tab-pane container fade" id="muzakMainSect">
-                    {% include muzakMain.html %}
-				</div>    <!-- tab pane muzakMainSect -->
+            <div class="tab-pane container fade" id="muzakMainSect">
+                {% include muzakMain.html %}
+            </div>    <!-- tab pane muzakMainSect -->
 
-				<div class="tab-pane container fade" id="getajobSect">
-                    {% include getajob.html %}
-				</div>    <!-- tab pane getajobSect -->
+            <div class="tab-pane container fade" id="getajobSect">
+                {% include getajob.html %}
+            </div>    <!-- tab pane getajobSect -->
 
-				<div class="tab-pane container fade" id="coffeeSect">
-                    {% include coffee.html %}
-				</div>    <!-- tab pane coffeeSect -->
+            <div class="tab-pane container fade" id="coffeeSect">
+                {% include coffee.html %}
+            </div>    <!-- tab pane coffeeSect -->
 
 		</section>
 		<hr>

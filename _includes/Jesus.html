@@ -1,1 +1,50 @@
-<h1>Jesus!...</h1>
+---
+<!-- I want Jekyll to process this file because it includes others -->
+---
+<h3>It's all about Jesus!...</h3>
+<div class="container">
+    <div class="row">
+        <div id="JesusTopics" class="col-2">
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" data-bs-target="#JesusIntro">Introduction</a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" data-bs-target="#JesusStmtBelief">My Statment of Belief</a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" data-bs-target="#JesusStmtBeliefYours">Developing Your Own Statment of Belief</a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" data-bs-target="#alienated">
+					“... you, who were once alienated and enemies in your mind by wicked works …” (Col 1:21) 
+				</a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" data-bs-target="#luckycharm">
+					Lucky Charm &amp; Amulet 
+				</a></li>
+               <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" data-bs-target="#salvation">Salvation</a></li>
+            </ul>
+        </div>
+        <div id="JesusContent" class="col tab-content">
+			<!-- Tab panes -->
+
+            <div class="tab-pane container active" id="JesusIntro">
+                {% include Jesus/intro.html %}
+            </div>  <!-- tab pane -->
+
+            <div class="tab-pane container fade" id="JesusStmtBelief">
+                {% include Jesus/stmtBelief.html %}
+            </div>    <!-- tab pane -->
+
+            <div class="tab-pane container fade" id="JesusStmtBeliefYours">
+                {% include Jesus/stmtBelief-makeityours.html %}
+            </div>    <!-- tab pane -->
+
+            <div class="tab-pane container fade" id="alienated">
+                {% include Jesus/you-who-were-once.html %}
+            </div>    <!-- tab pane -->
+
+            <div class="tab-pane container fade" id="luckycharm">
+                {% include Jesus/luckycharm.html %}
+            </div>    <!-- tab pane -->
+
+            <div class="tab-pane container fade" id="salvation">
+                {% include Jesus/salvation.html %}
+            </div>    <!-- tab pane -->
+
+        </div>
+    </div>
+</div>

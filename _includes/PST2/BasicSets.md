@@ -4,7 +4,7 @@
 <ul>
     {% raw %}
     <li>Set, element ($\in$, $\notin$), universal set</li>
-    <li>The empty set: $\varnothing$ = {x $\mid$ x <i>satisfies an impossible condition</i>}</li>
+    <li>The empty set: $\varnothing = {x \mid x <i>satisfies an impossible condition</i>}$</li>
     {% endraw %}
     <li></li>
     <li></li>

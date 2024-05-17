@@ -7,8 +7,8 @@
     <li>The empty set: $\varnothing$ = {x $\mid$ x <i>satisfies an impossible condition</i>}</li>
     {% endraw %}
     <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
 </ul>
+
+{% raw %}
+{% include PST2/test1.latex %}
+{% endraw %}

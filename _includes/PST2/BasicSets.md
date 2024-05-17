@@ -9,6 +9,4 @@
     <li></li>
 </ul>
 
-{% raw %}
 {% include PST2/test1.latex %}
-{% endraw %}

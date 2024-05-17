@@ -1,3 +1,4 @@
+{% raw %}
 % Options for packages loaded elsewhere
 \PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
@@ -72,3 +73,5 @@
 \end{itemize}
 
 \end{document}
+
+{% endraw %}

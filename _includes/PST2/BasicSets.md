@@ -10,22 +10,33 @@
 </ul>
 
 {% raw %}
-\begin{itemize}
-\item
+<ul>
+    
+<li>
   Set, element (\(\in ,\  \notin\)), universal set
-\item
+</li>
+<li>
   \(\varnothing = \left\{ x\  \right|x\ satisfies\ an\ impossible\ condition\)
-\item
+</li>
+<li>
   Equality of sets; A = B
-\item
+</li>
+<li>
   Complements, \(\overline{\overline{A}} = A\)
-\item
+</li>
+<li>
   \(A\  \cup B,\ A \cap B,\ A - B = A \cap \overline{B}\)
-\item
+</li>
+<li>
   \(\bigcup_{}^{}A_{i},\ \bigcap_{}^{}A_{i}\)
-\item
+</li>
+<li>
   DeMorgan, extension of DeMorgan to multiple intersections and unions
-\item
+</li>
+<li>
   Subsets:
-\end{itemize}
+</li>
+<li></li>
+
+</ul>
 {% endraw %}

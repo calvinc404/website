@@ -30,11 +30,23 @@ Theorems should be proven by the reader
     <li>\(A = B\ \) iff \(A \subseteq B\ \small\mathsf{AND}\normalsize\ A \supseteq B\)</li>
     <li>\(A \subseteq A \cup B, B \subseteq A \cup B\)</li>
     <li>\(A \cap B \subseteq A, A \cap B \subseteq B\)</li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>\(A \subseteq B\ \) iff \(A \cap B = A\)</li>
+    <li>\(A \subseteq B\ \) iff \(\overline{B} \subseteq \overline{A}\)</li>
+    <li>\(A - B = \varnothing \) iff \(A \subseteq B\)</li>
+    <li>There is <u>NOT</u> a subset trichotomy law!!
+      <br>
+      \(A \subseteq B, B \subseteq A \ and\ A = B\) may all be false!
+    </li>
   </ul>
 </li>
+<li>Special Differences:</li>
+  <ul>
+    <li>\(A - B = \varnothing \) iff \(A \subseteq B\)</li>
+    <li>\(A - B = \varnothing \) iff \(A \subseteq B\)</li>
+    <li>\(A - B = \varnothing \) iff \(A \subseteq B\)</li>
+  </ul>
+<li></li>
+<li></li>
 <li></li>
 
 </ul>

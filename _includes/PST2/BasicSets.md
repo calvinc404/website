@@ -42,10 +42,10 @@ Theorems should be proven by the reader
 <li>Special Differences:</li>
   <ul>
     <li>\(A - B = \varnothing \) iff \(A \subseteq B\)</li>
-    <li>\(A - B = \varnothing \) iff \(A \subseteq B\)</li>
-    <li>\(A - B = \varnothing \) iff \(A \subseteq B\)</li>
+    <li>\(A - B = A \) iff \(A \cap B = \varnothing \) iff \(B - A = B\)</li>
+    <li>\(A - B = B \) iff \(A = B = \varnothing \)</li>
   </ul>
-<li></li>
+<li>RESTART HERE \(A \cap B = \varnothing \) iff \(A \subseteq not-B \) iff \(B \subseteq not-A \)</li>
 <li></li>
 <li></li>
 

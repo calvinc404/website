@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <meta name="description" content="Calvin C's pages">
+  <meta name="author" content="Calvin C">
+  
+    <title>Show CSS classes</title>
+    <!-- CSS FILES -->
+    <link href="css/calvinc404.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <input style="width:400px" type="text" id="url" value="https://getbootstrap.com/docs/5.3/assets/css/docs.css">
+    <button onclick="getEm()">Get Em</button>
+    <hr>
+    <div id="classes"></div>
+    <div id="ids"></div>
+
+    <script>
+        // Array.prototype.forEach.call(document.styleSheets(0).cssRules,function(a)(console.log(a.selectorText)))
+    </script>
+    <script>
+        function getEm() {
+        url = document.getElementById("url").value;
+        
+        fetch(url)
+            .then((response) => response.text())
+            .then((data) => {
+            var cssText = data;
+        
+            var classRegex = /\.([\w-]+)/g;
+            var idRegex = /#([\w-]+)/g;
+        
+            var classes = [];
+            var ids = [];
+        
+            var match;
+            while ((match = classRegex.exec(cssText)) !== null) {
+                classes.push(match[1]);
+            }
+        
+            while ((match = idRegex.exec(cssText)) !== null) {
+                ids.push(match[1]);
+            }
+        
+            console.log("Classes: " + classes);
+            console.log("IDs: " + ids);
+        
+            document.getElementById("classes").innerHTML = classes + "<hr>";
+            document.getElementById("ids").innerHTML = ids;
+            });
+        }
+    </script>
+    
+</body>
+
+</html>
+

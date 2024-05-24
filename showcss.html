@@ -30,7 +30,7 @@
             
             var cssText = ""
             Array.prototype.forEach.call(
-                document.styleSheets(0).cssRules,
+                document.styleSheets[0].cssRules,
                 function (rul) {
                     cssText += rul.selectorText + "<br>"
                 });

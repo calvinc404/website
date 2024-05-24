@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <input style="width:400px" type="text" id="url" value="https://getbootstrap.com/docs/5.3/assets/css/docs.css">
+    <!-- <input style="width:400px" type="text" id="url" value="https://getbootstrap.com/docs/5.3/assets/css/docs.css"> -->
     <button onclick="getEm()">Get Em</button>
     <hr>
     <div id="classes"></div>
@@ -23,11 +23,19 @@
 
     <script>
         // Array.prototype.forEach.call(document.styleSheets(0).cssRules,function(a)(console.log(a.selectorText)))
-    </script>
+        </script>
     <script>
         function getEm() {
-        url = document.getElementById("url").value;
-        
+            // url = document.getElementById("url").value;
+            
+            var cssText = ""
+            Array.prototype.forEach.call(
+                document.styleSheets(0).cssRules,
+                function (rul) {
+                    cssText += rul.selectorText + "<br>"
+                });
+            document.getElementById("classes").innerHTML = cssText + "<hr>";
+            /*
         fetch(url)
             .then((response) => response.text())
             .then((data) => {
@@ -54,7 +62,8 @@
             document.getElementById("classes").innerHTML = classes + "<hr>";
             document.getElementById("ids").innerHTML = ids;
             });
-        }
+            */
+        };
     </script>
     
 </body>

@@ -49,15 +49,15 @@ Theorems should be proven by the reader (I'll distinguish definitions, axioms, a
     <br>
     (BE CAREFUL!  This does NOT imply that \(\overline{A} \subseteq B \) or \(\overline{B} \subseteq A \))
 </li>
-<li>\(C \subseteq A \small\mathsf{AND}\normalsize\ C \subseteq B \) iff \( C \subseteq A \cap B\)</li>
-<li>if \(C \subseteq A \small\mathsf{AND}\normalsize\ C \subseteq B\), then \(C \subseteq A \cap B\)</li>
-<li>if \(C \subseteq A \small\mathsf{OR}\normalsize\ C \subseteq B\), then \(C \subseteq A \cup B\)</li>
+<li>\(C \subseteq A\ \small\mathsf{AND}\normalsize\ C \subseteq B \) iff \( C \subseteq A \cap B\)</li>
+<li>if \(C \subseteq A\ \small\mathsf{AND}\normalsize\ C \subseteq B\), then \(C \subseteq A \cap B\)</li>
+<li>if \(C \subseteq A\ \small\mathsf{OR}\normalsize\ C \subseteq B\), then \(C \subseteq A \cup B\)</li>
 <li>The converse of the above two statements need not be true. To see this, consider 
     <br>
     \(C = \{x, y\}, A = \{x\}, B = \{y\} \)
 </li>
 <li>
-    \(A \subseteq C \small\mathsf{OR}\normalsize B \subseteq C \) iff \(A \cup B \subseteq C \)
+    \(A \subseteq C\ \small\mathsf{OR}\normalsize\ B \subseteq C \) iff \(A \cup B \subseteq C \)
 </li>
 <li></li>
 <li></li>

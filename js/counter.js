@@ -1,3 +1,5 @@
+/* TODO: REPLACE WITH countup.js */
+
 /*
  * jQuery.appear
  * http://code.google.com/p/jquery-appear/

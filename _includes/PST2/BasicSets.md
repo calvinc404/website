@@ -57,7 +57,7 @@ Theorems should be proven by the reader (I'll distinguish definitions, axioms, a
     \(C = \{x, y\}, A = \{x\}, B = \{y\} \)
 </li>
 <li>
-    \(A \subseteq C \small\maths{OR} B \subseteq C \) iff \(A \cup B \subseteq C \)
+    \(A \subseteq C \small\mathsf{OR}\normalsize B \subseteq C \) iff \(A \cup B \subseteq C \)
 </li>
 <li></li>
 <li></li>

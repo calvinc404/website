@@ -50,17 +50,27 @@ Theorems should be proven by the reader (I'll distinguish definitions, axioms, a
     (BE CAREFUL!  This does NOT imply that \(\overline{A} \subseteq B \) or \(\overline{B} \subseteq A \))
 </li>
 <li>\(C \subseteq A\ \small\mathsf{AND}\normalsize\ C \subseteq B \) iff \( C \subseteq A \cap B\)</li>
-<li>if \(C \subseteq A\ \small\mathsf{AND}\normalsize\ C \subseteq B\), then \(C \subseteq A \cap B\)</li>
-<li>if \(C \subseteq A\ \small\mathsf{OR}\normalsize\ C \subseteq B\), then \(C \subseteq A \cup B\)</li>
-<li>The converse of the above two statements need not be true. To see this, consider 
+<li>if \(C \subseteq A\ \small\mathsf{AND}\normalsize\ C \subseteq B\), then \(C \subseteq A \cap B\)
+<br>if \(C \subseteq A\ \small\mathsf{OR}\normalsize\ C \subseteq B\), then \(C \subseteq A \cup B\)
+<br>The converse of the above two statements need not be true. To see this, consider 
     <br>
     \(C = \{x, y\}, A = \{x\}, B = \{y\} \)
 </li>
-<li>
-    \(A \subseteq C\ \small\mathsf{OR}\normalsize\ B \subseteq C \) iff \(A \cup B \subseteq C \)
+<li>\(A \subseteq C\ \small\mathsf{OR}\normalsize\ B \subseteq C \) iff \(A \cup B \subseteq C \)</li>
+<li>if\(A \subseteq C\ \small\mathsf{AND}\normalsize\ B \subseteq C\), then \(A \cap B \subseteq C\)
+<br>if\(A \subseteq C\ \small\mathsf{OR}\normalsize\ B \subseteq C\), then \(A \cap B \subseteq C\)
+<br>The converses of these statements need not be true
 </li>
-<li></li>
-<li></li>
-
+<li>if\(A \cap B = \varnothing\)
+  <br>then \(A\cup B=C \Leftrightarrow C-A=B \Leftrightarrow C-B=A\)
+</li>
+<li> Equivalences of \(A \subseteq B\):
+<br>\(A \subseteq B \Leftrightarrow 
+    A \cap B = A \Leftrightarrow 
+    A \cup B = B \Leftrightarrow 
+    A - B = \varnothing \Leftrightarrow 
+    A \cap \overline{B} = \varnothing \Leftrightarrow 
+    \overline{B} \subseteq \overline{A}\)
+</li>
 </ul>
 {% endraw %}
